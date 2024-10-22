@@ -1,20 +1,6 @@
 <script>
 export default {
-  name: "header.vue",
-  methods: {
-    scrollToSection(event, sectionId) {
-      event.preventDefault();
-      const section = document.getElementById(sectionId);
-      const headerOffset = document.querySelector('header').offsetHeight;
-      const elementPosition = section.getBoundingClientRect().top + window.scrollY;
-      const offsetPosition = elementPosition - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-    }
-  }
+  name: "header.vue"
 }
 </script>
 
@@ -23,11 +9,11 @@ export default {
     <h2><a href="#">LactoSense</a></h2>
     <nav class="flex gap-2">
       <ul>
-        <li><a href="#hero" @click="scrollToSection($event, 'hero')">Home</a></li>
-        <li><a href="#ourwork" @click="scrollToSection($event, 'ourwork')">Our Solution</a></li>
-        <li><a href="#services" @click="scrollToSection($event, 'services')">Features</a></li>
-        <li><a href="#reviews" @click="scrollToSection($event, 'reviews')">Testimonials</a></li>
-        <li><a href="#contact" @click="scrollToSection($event, 'contact')">Contact</a></li>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#our-work">Our Solution</a></li>
+        <li><a href="#services">Features</a></li>
+        <li><a href="#reviews">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -44,7 +30,6 @@ header {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   font-family: 'Poppins', sans-serif; /* Minimalist and rounded typography */
   padding: 1px 5px; /* Further reduce vertical size */
-  z-index: 1000; /* Ensure header is on top */
 }
 
 h2 a {
