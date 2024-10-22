@@ -2,6 +2,9 @@
 
 LactoSense es una solución IoT avanzada diseñada para optimizar la refrigeración de productos lácteos. Utilizando sensores inteligentes y una plataforma de gestión en tiempo real, garantizamos la calidad y seguridad de los productos lácteos a lo largo de todo su ciclo de vida.
 
+## Deployment 
+
+https://frontend-web-application-lactosense-crjxbgaf3.vercel.app
 ## Descripción
 
 LactoSense ofrece una plataforma inteligente que permite el monitoreo en tiempo real de las condiciones de temperatura y humedad en sistemas de refrigeración para productos lácteos. Nuestro objetivo es reducir el desperdicio, mejorar la eficiencia y asegurar que los productos cumplan con los más altos estándares de calidad. El sistema se basa en tecnologías IoT para facilitar el control automático y las alertas tempranas de cualquier anomalía en la cadena de frío.
