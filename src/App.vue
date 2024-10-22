@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <Header />
+    <header-toolbar/>
     <router-view></router-view>
-    <Footer />
+    <footer-component/>
   </div>
 </template>
 
 <script>
-import Header from '/components/header-toolbar.vue';
-import Footer from '/components/footer.component.vue';
+import headerToolbar from "./components/header-toolbar.vue";
+import footerComponent from "./components/footer.component.vue";
 
 export default {
-  components: { Header, Footer }
+  components: {footerComponent, headerToolbar }
 };
+
 </script>
 
 <style>

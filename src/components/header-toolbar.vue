@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "header.vue"
+  name: "header-toolbar"
 }
 </script>
 
