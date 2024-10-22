@@ -13,26 +13,14 @@ export default {
 
 <template>
   <div>
-    <section id="hero">
-      <hero />
-    </section>
-    <section id="ourwork">
-      <ourwork />
-    </section>
-    <section id="services">
-      <features />
-    </section>
-    <section id="reviews">
-      <reviews />
-    </section>
-    <section id="contact">
-      <contact />
-    </section>
+    <hero />
+    <features />
+    <ourwork />
+    <reviews />
+    <contact />
   </div>
 </template>
 
 <style scoped>
-.section-padding {
-  padding-top: 60px; /* Adjust this value based on your header height */
-}
+
 </style>
