@@ -12,6 +12,7 @@ export default {
         <li><a href="#hero">Home</a></li>
         <li><a href="#our-work">Our Solution</a></li>
         <li><a href="#services">Features</a></li>
+        <li><a href="#simulator">Simulator</a></li>
         <li><a href="#reviews">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
