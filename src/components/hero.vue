@@ -1,9 +1,17 @@
 <script>
 import Button from 'primevue/button';
+import Dashboard from "./dashboard.vue";
+import Alerts from "./alerts.vue";
+import Reports from "./reports.vue";
+import Settings from "./settings.vue";
 
 export default {
   name: "hero",
   components: {
+    Settings,
+    Reports,
+    Alerts,
+    Dashboard,
     Button
   }
 }
@@ -17,6 +25,7 @@ export default {
       <h3>IoT Solutions for a Better Future in the Dairy Industry</h3>
       <Button label="Learn More About Our Technology" class="p-button-raised p-button-rounded large-button"></Button>
     </div>
+
   </section>
 </template>
 
