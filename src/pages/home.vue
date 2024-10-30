@@ -4,18 +4,20 @@ import Features from "../components/features.vue";
 import Reviews from "../components/reviews.vue";
 import Contact from "../components/contact.vue";
 import Ourwork from "../components/ourwork.vue";
+import Simulator from "../components/simulator.vue";
 
 export default {
   name: "home",
-  components: {Hero, Ourwork, Contact, Reviews, Features}
+  components: {Simulator, Hero, Ourwork, Contact, Reviews, Features}
 }
 </script>
 
 <template>
   <div>
     <hero />
-    <features />
     <ourwork />
+    <features />
+    <simulator/>
     <reviews />
     <contact />
   </div>
